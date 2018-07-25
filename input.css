@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#inputwrap{
+	position: absolute;
+	top: 25px;
+	left:200px;
+	width: 400px;
+	height: 30px; 
+	border:1px  solid #000;
+}
+#inputwrap .inp{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#inputwrap .inp .text{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+
+}
+#inputwrap .inp .inpbtn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10%;
+	height: 100%;
+	background-color: #ddd;
+	transform: translateX(100%);
+	display: block;
+
+}

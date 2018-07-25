@@ -1,0 +1,65 @@
+#tabwrapper{
+	width: 520px;
+	margin-top: 20px;
+	border: 1px solid #000;
+
+}
+
+#tabwrapper a{
+	text-decoration: none;
+}
+#tabwrapper li{
+	list-style: none;
+	display: inline-block;
+
+
+}
+
+#tabwrapper #tabs{
+	display: inline-block;
+	margin:0;
+	padding: 0;
+}
+#tabwrapper .header{
+	font-size: 17px;
+	color: #222;
+	margin-right: 10px;
+}
+
+#tabwrapper li a {
+	color: #999;
+	font-size: 13px;
+}
+#tabwrapper li .activeTab{
+	color: red;
+	font-weight: bolder;
+}
+#tabwrapper li a::after{
+	content:'|';
+	color: #222;
+	padding: 0 3px;
+}
+#tabwrapper #content{
+	background-color: #F5F7F8;
+	min-height: 220px;
+	padding: 20px;
+	position: relative;
+	margin-top: 10px;
+}
+#tabwrapper #content .conbox{
+
+	display: none;
+}
+#tabwrapper #content .conbox.current{
+	display: block;
+}
+#tabwrapper #content .box{
+	float: left;
+	height: 125px;
+	width: 120px;
+}
+#tabwrapper img{
+	height: 100px;
+	width: 120px;
+
+}
